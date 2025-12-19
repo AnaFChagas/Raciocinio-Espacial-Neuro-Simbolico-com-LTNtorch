@@ -30,6 +30,10 @@ O objetivo principal é classificar e raciocinar sobre formas geométricas e sua
 
  - Raciocínio (Simbólico): Lógica Fuzzy para impor restrições e regras de conhecimento sobre o domínio espacial.
 
+### Cuidado Especial
+
+Ao rodar o código, é necessária a execução de apenas uma (01) célula por vez
+
 ### 🛠️ Tecnologias Utilizadas
 
  - Python 3.x
