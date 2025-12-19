@@ -52,7 +52,7 @@ O objetivo principal é classificar e raciocinar sobre formas geométricas e sua
 
 ### 📊 Resultados Esperados
 
-O modelo deve ser capaz de identificar não apenas o tipo de objeto, mas validar se as restrições lógicas impostas nos axiomas estão sendo respeitadas, apresentando uma acurácia superior a modelos puramente neurais em cenários com poucos dados ou que exigem consistência geométrica.
+O modelo deverá ser capaz de identificar não apenas o tipo de objeto, mas validar se as restrições lógicas impostas nos axiomas estão sendo respeitadas, apresentando uma acurácia superior a modelos puramente neurais em cenários com poucos dados ou que exigem consistência geométrica.
 
 ### 🧾 Resultados Obtidos
 
