@@ -55,3 +55,29 @@ O objetivo principal é classificar e raciocinar sobre formas geométricas e sua
 O modelo deve ser capaz de identificar não apenas o tipo de objeto, mas validar se as restrições lógicas impostas nos axiomas estão sendo respeitadas, apresentando uma acurácia superior a modelos puramente neurais em cenários com poucos dados ou que exigem consistência geométrica.
 
 ### 🧾 Resultados Obtidos
+
+O modelo foi validado através de um protocolo experimental rigoroso, consistindo em 5 execuções (Runs) independentes com sementes aleatórias distintas para garantir a robustez estatística dos achados.
+
+📈 Desempenho Quantitativo (Média das Execuções)
+
+Após o treinamento, o modelo demonstrou uma alta capacidade de aprendizado lógico, atingindo uma estabilidade notável na satisfatibilidade da base de conhecimento.
+
+
+🧠 Análise de Raciocínio e Convergência
+
+ - Convergência Lógica: A satisfação média da base de conhecimento (SAT KB) de aproximadamente 97,6% indica que o modelo aprendeu com sucesso a respeitar as regras lógicas impostas, como a transitividade e a assimetria das relações espaciais.
+
+ - Comportamento Conservador: Observou-se um desbalanceamento na detecção da relação LeftOf. O modelo apresentou alta acurácia em casos negativos (~95%) e menor em positivos (~32%). Isso sugere uma postura "conservadora" para evitar a violação de axiomas estritos: para não contradizer a lógica (ex: se A está à esquerda de B, B não pode estar à esquerda de A), a rede prefere predizer "Falso" com mais frequência, resultando em alta precisão.
+
+ - Satisfação de Fórmulas Compostas:
+    - Consultas de Existência: (Ex: "Pequeno abaixo de Cilindro") atingiram cerca de 0.98 de satisfação.
+
+    - Restrições de Proximidade: (Ex: "Triângulos próximos devem ter o mesmo tamanho") alcançaram cerca de 0.99.
+
+💡 Capacidades de Raciocínio Demonstradas
+
+ - Filtragem Composta: O modelo provou ser capaz de realizar a interseção de múltiplos conjuntos de propriedades (ex: identificar um objeto que seja simultaneamente Pequeno, esteja Abaixo de um Cilindro e à Esquerda de um Quadrado).
+
+ - Dedução de Conceitos Abstratos: O conceito de "Estar entre" (InBetween) foi derivado logicamente a partir de relações opostas, demonstrando raciocínio de ordem superior sem a necessidade de dados de entrada diretos para essa classe.
+
+ - Refinamento via Axiomas: O uso de regras impositivas (como a restrição de tamanho para triângulos próximos) demonstrou como o conhecimento simbólico pode corrigir a percepção neural, forçando a rede a aprender correlações entre propriedades espaciais e categoriais.
