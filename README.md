@@ -62,6 +62,7 @@ O modelo foi validado através de um protocolo experimental rigoroso, consistind
 
 Após o treinamento, o modelo demonstrou uma alta capacidade de aprendizado lógico, atingindo uma estabilidade notável na satisfatibilidade da base de conhecimento.
 
+![Desempenho](assets/Resultaos-FIA.png)
 
 🧠 Análise de Raciocínio e Convergência
 
