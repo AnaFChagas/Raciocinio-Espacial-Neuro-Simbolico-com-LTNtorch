@@ -1,0 +1,1 @@
+# Raciocinio-Espacial-Neuro-Simbolico-com-LTNtorch
