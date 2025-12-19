@@ -10,7 +10,8 @@ Integrantes:
 - THARCIO ASSUNÇÃO
 - RAFAEL FARIAS DE LIMA
 
-- Email: 
+ Email:
+ 
 - anaf.chagas@icomp.ufam.edu.br
 - franciscobraga99@gmail.com
 - davi.emanuel@icomp.ufam.edu.br
