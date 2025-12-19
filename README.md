@@ -32,7 +32,7 @@ O objetivo principal é classificar e raciocinar sobre formas geométricas e sua
 
 ### Cuidado Especial
 
-Ao rodar o código, é necessária a execução de apenas uma (01) célula por vez
+Ao rodar o código, é necessária a execução de apenas uma (01) célula por vez.
 
 ### 🛠️ Tecnologias Utilizadas
 
